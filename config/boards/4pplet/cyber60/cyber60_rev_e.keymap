@@ -68,7 +68,7 @@
     &kp LSHFT &none     &kp SEMI  &kp Q     &kp J     &kp K     &kp X     &kp B     &kp M     &kp W     &kp V     &kp Z     &kp RSHFT &mo 2
     
     // Row 5 (10 slots): Bottom row modifiers and Spacebar (Spacebar spans 3 slots)
-    &kp LCTRL &kp LGUI  &kp LALT  &kp SPACE &kp SPACE &kp SPACE &kp RALT  &mo 2     &kp K_APP &mo 3 
+    &kp LCTRL &kp LGUI  &kp LALT  &kp SPACE &kp SPACE &kp SPACE &none     &kp RALT  &kp K_APP &mo 3 
     
     // Row 6 (1 slot): Rotary encoder push-button slot
     &none
@@ -83,7 +83,7 @@
     &trans    &trans    &kp HOME  &kp UP    &kp END   &kp PG_UP &trans    &trans    &trans    &trans    &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_NUM
     &trans    &kp LSHFT &kp LEFT  &kp DOWN  &kp RIGHT &kp PG_DN &trans    &trans    &trans    &kp KP_N4 &kp KP_N5 &kp KP_N6 &none     &kp RET
     &kp CLCK  &none     &kp LC(C) &kp LC(V) &kp LC(X) &trans    &trans    &trans    &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp RALT  &trans    &trans
-    &kp F2    &kp LC(LS(F)) &kp LC(LS(W)) &trans &trans &trans  &kp KP_N0 &trans    &kp KP_DOT &kp RCTRL
+    &kp F2    &kp LC(LS(F)) &kp LC(LS(W)) &trans &trans &trans  &trans    &kp KP_N0 &kp KP_DOT &kp RCTRL
     &none
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
